@@ -7,7 +7,7 @@ This plan details the phases and tasks required to implement the SubScript front
 ## Phase 1: Project Setup and Subscriber View (Minting UI)
 
 ### Tasks
-- [ ] Task: Initialize a new Next.js project using Bun and Turborepo.
+- [~] Task: Initialize a new Next.js project using Bun and Turborepo.
 - [ ] Task: Set up basic project structure for Subscriber and Merchant views.
 - [ ] Task: Implement the "Subscribe Button" component for the Subscriber View.
     - [ ] Sub-task: Create a form to input "Merchant Address" and "Deposit Amount".

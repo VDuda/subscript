@@ -9,5 +9,5 @@ This file tracks all major tracks for the project. Each track has its own detail
 
 ---
 
-## [ ] Track: Build the Frontend for Subscript, including the Subscriber and Merchant views.
+## [~] Track: Build the Frontend for Subscript, including the Subscriber and Merchant views.
 *Link: [./conductor/tracks/frontend_20260105/](./conductor/tracks/frontend_20260105/)*
