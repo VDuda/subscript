@@ -7,9 +7,53 @@ export const SubscribeForm = () => {
   const [merchantAddress, setMerchantAddress] = useState("");
   const [depositAmount, setDepositAmount] = useState("");
 
-  const handleSubscribe = () => {
-    // TODO: Integrate with Bitcoin wallet
-    alert(`Subscribing to ${merchantAddress} with ${depositAmount} BTC`);
+  const handleSubscribe = async () => {
+    // TODO: This is a placeholder. Replace with actual charms-sdk and wallet integration.
+
+    // 1. Get user's wallet and address (mocked for now)
+    const userWallet = {
+      address: "tb1q...", // mock user address
+      // function to sign a transaction
+      signTransaction: async (tx: any) => {
+        console.log("Signing transaction:", tx);
+        return "signed_transaction_hex";
+      },
+    };
+
+    // 2. Construct the transaction using charms-sdk (mocked for now)
+    // This would involve creating a spell or using the sdk's transaction builder.
+    console.log("Constructing transaction with charms-sdk...");
+    const transaction = {
+      inputs: [
+        // User's UTXOs to fund the subscription
+      ],
+      outputs: [
+        {
+          // The new SubscriptionCharm UTXO
+          address: "charm_address", // The address of the charm
+          charms: {
+            // The SubscriptionCharm data
+          },
+        },
+        {
+          // Change back to the user
+          address: userWallet.address,
+        },
+      ],
+    };
+
+    // 3. Prompt user to sign the transaction
+    try {
+      const signedTx = await userWallet.signTransaction(transaction);
+      console.log("Transaction signed:", signedTx);
+
+      // 4. Broadcast the transaction (mocked for now)
+      console.log("Broadcasting transaction...");
+      alert(`Subscription to ${merchantAddress} with ${depositAmount} BTC created successfully!`);
+    } catch (error) {
+      console.error("Subscription failed:", error);
+      alert("Subscription failed. See console for details.");
+    }
   };
 
   return (
