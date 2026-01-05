@@ -12,7 +12,7 @@ This plan details the phases and tasks required to implement the SubScript front
 - [x] Task: Implement the "Subscribe Button" component for the Subscriber View. (7edbb70)
     - [ ] Sub-task: Create a form to input "Merchant Address" and "Deposit Amount".
     - [ ] Sub-task: Integrate with a Bitcoin wallet to prompt transaction confirmation.
-- [ ] Task: Implement logic to create a new Subscript UTXO upon successful subscription.
+- [x] Task: Implement logic to create a new Subscript UTXO upon successful subscription. (25ca741)
 - [ ] Task: Conductor - User Manual Verification 'Project Setup and Subscriber View' (Protocol in workflow.md)
 
 ---
