@@ -21,7 +21,7 @@ This plan details the phases and tasks required to implement the core `Subscript
     - [ ] Sub-task: Test failed pull before the interval has passed.
     - [ ] Sub-task: Test for correct output generation.
 - [x] Task: Implement the "Merchant Pull" logic within the Charm's `verify` function. (14db625)
-- [ ] Task: Write unit tests for the "Subscriber Unsubscribe" spending path.
+- [x] Task: Write unit tests for the "Subscriber Unsubscribe" spending path. (1389b6e)
     - [ ] Sub-task: Test for successful withdrawal of all funds.
     - [ ] Sub-task: Test that only the subscriber can trigger this path.
 - [ ] Task: Implement the "Subscriber Unsubscribe" logic within the Charm's `verify` function.
