@@ -1,8 +1,11 @@
+import { SubscribeForm } from "../../components/SubscribeForm";
+
 export default function SubscriberPage() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       <h1 className="text-4xl font-bold">Subscriber View</h1>
       <p>This is the subscriber's dashboard.</p>
+      <SubscribeForm />
     </main>
   );
 }
