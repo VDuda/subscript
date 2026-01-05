@@ -7,9 +7,9 @@ This plan details the phases and tasks required to implement the core `Subscript
 ## Phase 1: Environment Setup & Charm Definition
 
 ### Tasks
-- [ ] Task: Set up the Rust development environment for BitcoinOS and Charms development.
-- [ ] Task: Initialize a new Rust project for the SubScript Charm.
-- [ ] Task: Define the `SubscriptionCharm` struct in the Rust project according to the spec.
+- [x] Task: Set up the Rust development environment for BitcoinOS and Charms development. (08abd36)
+- [x] Task: Initialize a new Rust project for the SubScript Charm. (08abd36)
+- [x] Task: Define the `SubscriptionCharm` struct in the Rust project according to the spec. (08abd36)
 
 ---
 
