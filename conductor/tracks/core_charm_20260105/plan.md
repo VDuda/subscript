@@ -16,7 +16,7 @@ This plan details the phases and tasks required to implement the core `Subscript
 ## Phase 2: Implementation of Spending Paths
 
 ### Tasks
-- [ ] Task: Write unit tests for the "Merchant Pull" spending path.
+- [x] Task: Write unit tests for the "Merchant Pull" spending path. (77547fb)
     - [ ] Sub-task: Test successful pull after the interval has passed.
     - [ ] Sub-task: Test failed pull before the interval has passed.
     - [ ] Sub-task: Test for correct output generation.
