@@ -24,7 +24,7 @@ This plan details the phases and tasks required to implement the core `Subscript
 - [x] Task: Write unit tests for the "Subscriber Unsubscribe" spending path. (1389b6e)
     - [ ] Sub-task: Test for successful withdrawal of all funds.
     - [ ] Sub-task: Test that only the subscriber can trigger this path.
-- [ ] Task: Implement the "Subscriber Unsubscribe" logic within the Charm's `verify` function.
+- [x] Task: Implement the "Subscriber Unsubscribe" logic within the Charm's `verify` function. (c7d0fff)
 - [ ] Task: Conductor - User Manual Verification 'Implementation of Spending Paths' (Protocol in workflow.md)
 
 ---
