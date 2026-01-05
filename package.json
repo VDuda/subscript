@@ -1,15 +1,19 @@
 {
   "name": "subscript-mono",
   "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
   "scripts": {
-    "build": "turbo build",
     "dev": "turbo dev",
     "lint": "turbo lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
   "devDependencies": {
     "prettier": "^3.2.5",
-    "turbo": "^2.0.9"
+    "turbo": "^2.0.9",
+    "typescript": "5.4.5"
   },
   "packageManager": "bun@1.0.21"
 }

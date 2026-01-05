@@ -9,7 +9,7 @@ This plan details the phases and tasks required to implement the SubScript front
 ### Tasks
 - [x] Task: Initialize a new Next.js project using Bun and Turborepo. (0af8359)
 - [x] Task: Set up basic project structure for Subscriber and Merchant views. (d0d6a8e)
-- [ ] Task: Implement the "Subscribe Button" component for the Subscriber View.
+- [~] Task: Implement the "Subscribe Button" component for the Subscriber View.
     - [ ] Sub-task: Create a form to input "Merchant Address" and "Deposit Amount".
     - [ ] Sub-task: Integrate with a Bitcoin wallet to prompt transaction confirmation.
 - [ ] Task: Implement logic to create a new Subscript UTXO upon successful subscription.

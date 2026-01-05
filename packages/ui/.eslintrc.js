@@ -1,0 +1,8 @@
+/** @type {import("eslint").Linter.Config} */
+module.exports = {
+  root: true,
+  extends: ["@repo/eslint-config/react-library.js"],
+  parserOptions: {
+    project: "./tsconfig.json",
+  },
+};
