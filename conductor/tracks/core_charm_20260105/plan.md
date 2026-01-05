@@ -13,7 +13,7 @@ This plan details the phases and tasks required to implement the core `Subscript
 
 ---
 
-## Phase 2: Implementation of Spending Paths
+## Phase 2: Implementation of Spending Paths [checkpoint: 80dd7b1]
 
 ### Tasks
 - [x] Task: Write unit tests for the "Merchant Pull" spending path. (77547fb)
